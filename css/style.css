@@ -1,0 +1,156 @@
+:root
+{
+    --gameContainer-bg-color:#f00;
+    --spaceships-bg-color-even: pink;
+    --spaceships-bg-color-odd: green;
+    --cannon-bg-color: yellow;
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 15px;
+    font-size:1.1rem; 
+      
+}
+
+#gameContainer
+{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--gameContainer-bg-color);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+
+}
+
+.spaceships
+{
+    width:75px;
+    height:50px;
+    justify-self: center;
+}
+
+
+#cannon
+{
+    width:75px;
+    height: 75px;
+    background-color: var(--cannon-bg-color);
+    position: absolute;
+    bottom: 20px;
+}
+
+#gameContainer > .spaceships:nth-child(even)
+{
+    background-color: var(--spaceships-bg-color-even);
+}
+
+#gameContainer > .spaceships:nth-child(odd)
+{
+    background-color: var(--spaceships-bg-color-odd);
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    background-color: #DAF7A6;
+    height: 100%;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.top-section
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid #000;
+    /*height: 100px;
+}
+
+/*
+.top-section
+{
+    min-height: 100%;
+    position: relative;
+    /*background-color:#3498DB;
+    min-height: 100%;
+}
+*/
+
+/*
+.top-section > #obj1, .top-section > #obj2, .top-section > #obj3, .top-section > #obj4, .top-section > #obj5
+{
+    border: 1px solid #000;
+    width: 15%;
+    height: 100px;
+    display: inline-block;
+    margin: 40px;
+
+}
+*/
+
+/*spaceship boxes*/
+
+/* .top-section > .top-objects
+{
+    border: 1px solid #000;
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+    margin: 40px;
+    
+}
+
+#answer
+{
+    border: 1px solid #000;
+    width: 100px;
+    height: 150px;
+    margin-top: 600px;
+}  */

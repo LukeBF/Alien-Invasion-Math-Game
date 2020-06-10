@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    background-image: url(../img/spacebg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+.welcome 
+{
+    text-align: center;
+    color: #9ADE31;
+    font-family: 'Amatic SC', cursive;
+    font-size: 64px;
+}
+
+h1
+{
+    padding: 200px 0 0 0;
+    
+}
+
+.welcome p
+{
+    color: #ffffff;
+    margin-top: 65px;
+}
+
+.buttons
+{
+    text-align: center; 
+}
+
+.buttons__click
+{
+    background-color: #9ADE31;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 100px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    margin-top: 75px;
+}
+
+.buttons__click:hover
+{
+    background-color: #fff;
+    color: #000;  
+}
