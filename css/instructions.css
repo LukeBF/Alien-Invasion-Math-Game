@@ -4,16 +4,16 @@
 {
     color: #fff;
     background-color: rgba(50, 50, 49, 0.75);
-    padding: 50px;
-    margin: 50px 150PX;
+    padding: 30px;
+    margin: 20px 150PX;
     font-family: 'Balsamiq Sans', cursive; 
 }
 
 /*PARAGRAPH*/
 .instructions p
 {
-    padding: 20px;
-    font-size: 1.5rem;
+    padding: 10px;
+    font-size: 1.2rem;
     text-align: justify;
 }
 
@@ -22,29 +22,4 @@
 {
     padding: 15px 40px;
     font-size: 1.2rem;
-}
-
-/*LINK STYLES*/
-.links
-{
-    text-align: center; 
-    margin-top: 20px;
-}
-
-.links a
-{
-    background-color: #9ADE31;
-    padding: 10px 20px;
-    border-radius: 15px;
-    width: 100px;
-    font-family: 'Amatic SC', cursive;
-    font-size: 40px;
-    text-decoration: none;
-    color: #000; 
-}
-
-.link:hover
-{
-    background-color: #fff;
-    color: #000;  
 }
